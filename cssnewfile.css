@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 22px;
+background: linear-gradient(90deg, rgba(30,3,51,1) 19%, rgba(37,4,64,1) 44%, rgba(47,2,83,1) 65%, rgba(53,0,94,1) 93%, rgba(67,2,119,1) 100%);
+color : white;
+padding-left: 10px;
+}
+.menu-bar
+{
+    background: rgb(243, 245, 243);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    padding: 5px;
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.menu-bar ul li{
+    width: 60%;
+    margin: 2px;
+    padding: 10px;
+    text-align: left;
+}
+.menu-bar ul li a{
+    text-decoration: dotted;
+    color: black;
+}
+
+.menu-bar ul li:hover{
+    background-color: rgb(201, 123, 253);
+    border-radius: 3px;
+
+}
+.sub-menu-1{
+    display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+display: block;
+position: absolute;
+background: rgb(199, 174, 241);
+margin-top: 15px;
+margin-left: 15px;    
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+display: inline;
+margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 250px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(8, 5, 5);
+    border-radius: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1ul li a:hover{
+    color: rgb(255, 0, 55);
+}
+.buttont {
+    background: rgb(228, 196, 226);
+    border: none;
+    color: rgb(11, 10, 10);
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+  }
+  .buttont :hover{
+      color: rgb(152, 47, 171);
+  }
+  .show{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 15px;
+  }
+  h3{
+      background-color: black;
+      font-family: cursive;
+    
+  }
+  p{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+      padding-left: 10px;
+  }
+  h2{
+      background-color: rgb(237, 134, 237);
+      font-family: serif;
+      width: 30%;
+      color: black;
+  }
+  .program-links{
+    font-size: 20px;
+    text-decoration: dashed;
+    margin: 10px;
+    border: 1px rgb(244, 241, 241);
+    color: rgb(15, 14, 14);
+    background-color: whitesmoke;
+    padding: 8px;
+    font-family: monospace;
+}
+.program-links:hover{
+    color: rgb(245, 240, 240);
+    background-color: rgb(10, 9, 10);
+}
+.bold{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    color: rgb(228, 221, 34);
+    
+}
